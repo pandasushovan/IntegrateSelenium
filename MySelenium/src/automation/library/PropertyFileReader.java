@@ -5,8 +5,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
-import org.yaml.snakeyaml.introspector.Property;
-
 public class PropertyFileReader {
 
 	public static String AppConfigRead(String key) throws IOException {
